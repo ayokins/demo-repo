@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient( rgba(240, 235, 235, 0.5), rgba(245, 238, 238, 0));
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar{
+    border-bottom: 1px solid rgb(199, 197, 197);
+    padding-bottom: 25px;
+}
+
+.nav-bar ul{
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar li{
+    display: inline;  
+}
+
+.nav-bar a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a:hover{
+    color: rgb(228, 129, 16);
+    transition: all 500ms ease-in-out;
+}
+
+#logo{
+    width: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.cite{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    margin-top: 30px;
+    margin-left: 35%;
+    margin-bottom: 70px;
+}
+
+.cite ul{
+    list-style: none;
+    line-height: 2em;
+}
+
+.cite a{
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+}
+
+.cite a:hover{
+    color: rgb(3, 2, 105);
+    transition: all 300ms ease-in-out;
+}
+
+.cite h2{
+    margin-bottom: 30px;
+    color: rgb(5, 4, 26);
+}
+
+
+
+.main-footer{
+    border-top: 1px solid rgb(199, 197, 197);
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding: 40px;
+}
